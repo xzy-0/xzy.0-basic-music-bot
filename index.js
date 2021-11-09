@@ -11,7 +11,7 @@ const layer = new Player(client, {
   leaveOnEnd: true,
   leaveOnCooldown: 4000,
   leaveOnEmpty: true,
-  LeaveOnStop: false
+  LeaveOnStop: true
 });
 
 client.player = player
